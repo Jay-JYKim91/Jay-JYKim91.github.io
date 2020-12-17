@@ -100,7 +100,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 325px;
+  height: 305px;
   flex: 1;
 }
 .project-more-info p {
@@ -118,12 +118,12 @@ body {
   color: white;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 1em;
+/*  margin-bottom: 1em;*/
   font-weight: 500;
   border-radius: 1em;
   border: 2px solid #6d6d6d;
   background-color: #6d6d6d;
-  padding: 0.5em;
+  padding: 0.3em;
   display: block;
 }
 .project-url:hover {
@@ -135,6 +135,7 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
 }
 .carousel-item img {
   height: 350px;
+  width: 658px;
 }
 .skill {
   padding: 3px 7px;
@@ -166,4 +167,10 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
 .footer p {
   font-size: 11px;
   margin-top: 1em;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
