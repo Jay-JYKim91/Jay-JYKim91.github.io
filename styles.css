@@ -43,7 +43,7 @@
 
 body {
   margin: 0;
-  background-color: #efefef;
+  background-color: #edf2fb;
 }
 .banner {
   background-image: url('images/banner.png');
@@ -52,30 +52,31 @@ body {
   padding: 150px 50px 250px 80px;
 }
 .banner h1 {
-  font-family: 'Archivo', sans-serif;
-  color: #28363D;
+  font-family: 'Arima Madurai', cursive;
+  color: #2f3e46;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 55px;
   text-shadow: 1px 1px grey;
 }
 .banner h2 {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   font-weight: 500;
-  color: #28363D;
-  font-size: 25px;
+  color: #2f3e46;
+  font-size: 28px;
   text-shadow: 1px 1px grey;
 }
 .containers {
   width: 900px;
   margin: auto;
-  background-color: #efefef;
+  background-color: #edf2fb;
 }
 .container h2 {
   text-align: center;
   font-size: 30px;
   margin: 1em;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   font-weight: 600;
+  color: #2f3e46;
 }
 .project-right {
   display: grid;
@@ -90,9 +91,9 @@ body {
 .project-content h3 {
   font-size: 25px;
   margin-bottom: 0.5em;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   font-weight: 500;
-  color: #08252d;
+  color: #2f3e46;
   text-align: center;
 }
 .project-more-info {
@@ -105,6 +106,8 @@ body {
 }
 .project-more-info p {
   margin-bottom: 5px;
+  font-family: 'Arima Madurai', cursive;
+  color: #2f3e46;
 }
 .clone-link {
   color: black;
@@ -121,17 +124,18 @@ body {
 /*  margin-bottom: 1em;*/
   font-weight: 500;
   border-radius: 1em;
-  border: 2px solid #6d6d6d;
-  background-color: #6d6d6d;
+  border: 2px solid #2f3e46;
+  background-color: #2f3e46;
   padding: 0.3em;
   display: block;
+  font-family: 'Arima Madurai', cursive;
 }
 .project-url:hover {
-  color: #6d6d6d;
-  background-color: #efefef;
+  color: #2f3e46;
+  background-color: #edf2fb;
 }
 .carousel-inner {
-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .carousel-item img {
   height: 350px;
@@ -139,10 +143,12 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
 }
 .skill {
   padding: 3px 7px;
-  border: 2px solid #6d6d6d;
+  border: 2px solid #2f3e46;
   border-radius: 1em;
   margin: 0 0.5em 0.5em 0;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Arima Madurai', cursive;
 }
 .skills {
   display: flex;
@@ -150,23 +156,26 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
   justify-content: center;
 }
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #2f3e46;
+  color: #edf2fb;
   text-align: center;
   text-shadow: 1px 1px grey;
   padding: 1em;
 }
 .footer h4 {
   margin: 0;
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 700;
 }
 .footer i {
   font-size: 20px;
-  color: #dadada;
+  color: #edf2fb;
   margin: 0 20px;
 }
 .footer p {
   font-size: 11px;
   margin-top: 1em;
+  font-family: 'Arima Madurai', cursive;
 }
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
