@@ -183,3 +183,21 @@ body {
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
+.one-education {
+  display: flex;
+}
+.edu-image img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.edu-description h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 500;
+  color: #2f3e46;
+}
+.edu-description {
+  font-family: 'Arima Madurai', cursive;
+}
