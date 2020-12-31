@@ -62,7 +62,7 @@ body {
   font-family: 'Arima Madurai', cursive;
   font-weight: 500;
   color: #2f3e46;
-  font-size: 28px;
+  font-size: 24px;
   text-shadow: 1px 1px grey;
 }
 .containers {
@@ -118,21 +118,21 @@ body {
   text-decoration: none;
 }
 .project-url {
-  color: white;
+  color: #2f3e46;
   text-decoration: none;
   text-align: center;
 /*  margin-bottom: 1em;*/
   font-weight: 500;
   border-radius: 1em;
   border: 2px solid #2f3e46;
-  background-color: #2f3e46;
+  background-color: #edf2fb;
   padding: 0.3em;
   display: block;
   font-family: 'Arima Madurai', cursive;
 }
 .project-url:hover {
-  color: #2f3e46;
-  background-color: #edf2fb;
+  color: #edf2fb;
+  background-color: #2f3e46;
 }
 .carousel-inner {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -144,6 +144,8 @@ body {
 .skill {
   padding: 3px 7px;
   border: 2px solid #2f3e46;
+  background-color: #2f3e46;
+  color: #edf2fb;
   border-radius: 1em;
   margin: 0 0.5em 0.5em 0;
   font-size: 14px;
